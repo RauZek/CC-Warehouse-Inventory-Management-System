@@ -7,7 +7,7 @@ It supports input, organization, and search of food items, distinguishing betwee
 - *Environment*: Console application.
 
 # Features
-#1. Data Entry
+# 1. Data Entry
 - Accepts an integer *n* in the range [0, 1000], representing the number of food items.
 - For each item, the following fields are entered:
   - *Code*: Alphanumeric string (max 5 characters);
