@@ -5,8 +5,6 @@ It supports input, organization, and search of food items, distinguishing betwee
 # Technologies Used
 - *Language*: C++;
 - *Environment*: Console application;
-- *Libraries*: Standard C++ (<iostream>, <iomanip>, <string.h>, <stdlib.h>);
-
 
 # Features
 #1. Data Entry
