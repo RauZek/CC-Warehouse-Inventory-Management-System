@@ -28,31 +28,31 @@ void inputInventoryItem(array_1 z, int n)
 {
 	for (int i = 1; i <= n; i++)
 	{
-		std :: cout << "\nInsert the Code: ";
-		std :: cin >> z[i].code;
+		std::cout << "\nInsert the Code: ";
+		std::cin >> z[i].code;
 
-		std :: cout << "\nInsert the Name: ";
-		std :: cin >> z[i].name;
+		std::cout << "\nInsert the Name: ";
+		std::cin >> z[i].name;
 
-		std:: cout << "\nInsert the Quantity in kg: ";
-		std :: cin >> z[i].quantitykg;
+		std::cout << "\nInsert the Quantity in kg: ";
+		std ::cin >> z[i].quantitykg;
 
-		std :: cout << "\nInsert the Traveling time in Days: ";
-		std :: cin >> z[i].traveldays;
+		std::cout << "\nInsert the Traveling time in Days: ";
+		std::cin >> z[i].traveldays;
 
-		std :: cout << "\nInsert the Type of Article: ";
-		std :: cin >> z[i].type;
+		std::cout << "\nInsert the Type of Article: ";
+		std::cin >> z[i].type;
 
-		std :: cout << "\nInsert the Date: ";
-		std :: cin >> z[i].date;
+		std::cout << "\nInsert the Date: ";
+		std::cin >> z[i].date;
 
-		std :: cout << "\nInsert the Position: ";
-		std :: cin >> z[i].pos;
+		std::cout << "\nInsert the Position: ";
+		std::cin >> z[i].pos;
 
 		if (z[i].type == 'S')
 		{
-			std :: cout << "\nInsert the Temperature: ";
-			std :: cin >> z[i].temperature;
+			std::cout << "\nInsert the Temperature: ";
+			std::cin >> z[i].temperature;
 		}
 	}
 }
@@ -122,12 +122,12 @@ void searchByItemCode(array_1 z, int n)
 	int mintemperature = 100;
 	string5 codetoCheck;
 
-	std :: cout << "\nInsert the Code: ";
-	std :: cin >> codetoCheck;
+	std::cout << "\nInsert the Code: ";
+	std::cin >> codetoCheck;
 
 	for (int i = 1; i <= n; i++){
 		if (strcmp(z[i].code, codetoCheck) == 0) {
-			std :: cout << z[i].name << z[i].pos;
+			std::cout << z[i].name << z[i].pos;
 			sum = sum + z[i].quantitykg;
 
 			if (z[i].temperature < mintemperature) {
@@ -144,8 +144,8 @@ int main()
 
 	do
 	{
-		std :: cout << "Insert the value of the number n: ";
-		std :: cin >> n;
+		std::cout << "Insert the value of the number n: ";
+		std::cin >> n;
 	} while (n < nmin || n > nmax);
 
 	inputInventoryItem(z, n);
