@@ -4,7 +4,7 @@ It supports input, organization, and search of food items, distinguishing betwee
 
 # Technologies Used
 - *Language*: C++;
-- *Environment*: Console application;
+- *Environment*: Console application.
 
 # Features
 #1. Data Entry
